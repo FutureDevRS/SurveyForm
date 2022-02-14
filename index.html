@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+
+
+
+<header>
+    <h1 id="title">Car Wash Customer Survey</h1>
+  </header>
+  
+  <body>
+    
+<p id="description">Help us help you with your feedback</p>
+<div form id= "surveyForm" action= "form.html" method="GET">
+   
+<form id="survey-form" action="form.html" method="get">
+  
+  <div class="input-headings">
+  <label for="name" id="name-label">Name</label>
+  <input id="name" type="text" name="name" placeholder= "Ryan" class="form-inputs" required></input>
+  <br>
+   <label for="email" id="email-label">Email</label>
+  <input id="email" type="email" name="email" class="form-inputs" placeholder= "surveyform@gmail.com" required></input>
+  <br>
+  <label for="number" id="number-label">Number</label>
+  <input id="number" type="number" name="number" class="form-inputs" placeholder= "34" required min="18" max="100">
+  <br>
+  <label for="dropdown" id="service" class="form-inputs">Service Selected</label> 
+  <select id="dropdown">
+    <option value="standard">Standard</option>
+    <option value="standard_wax">Standard w/ Wax</option>
+    <option value="delux">Delux</option>
+    <option value="premium">Premium</option>
+    <option value="club_member">Club Member</option>
+  </select>
+  <br>
+  <br>
+  
+  <label for="service_rating" id="service_rating"> <b> Service Rating </b> </label>
+  <br>
+  <input id="service_rating" type="radio" id="great" name="rating" value="great">
+  <label for="service_rating">Great</label>
+  <br>
+           <input id="service_rating" type="radio" id="good" name="rating" value="good">
+  <label for="service_rating">Good</label>
+  <br>  
+  <input id="service_rating" type="radio" id="satisfied" name="rating" value="satisfied">
+  <label for="service_rating">Satisfied</label>
+  <br>
+  <input id="service_rating" type="radio" id="dissatisfied" name="rating" value="dissatisfied">
+  <label for="service_rating">Dissatisfied</label>
+  <br>
+  <input id="service_rating" type="radio" id="terrible" name="rating" value="terrible">
+  <label for="service_rating">Terrible</label>
+  <br>
+  <br>
+  <label for="vehicle"><b>Type of Vehicle</b></label>
+  <br>
+  <input id="checkbox" type="checkbox" name="vehicle" value="car">
+  <label for="checkbox">CAR</label>
+  <br>
+  <input id="checkbox" type="checkbox" name="vehicle" value="truck">
+  <label for="checkbox">TRUCK</label>
+    <br>
+  <input id="checkbox" type="checkbox" name="vehicle" value="suv">
+  <label for="checkbox">SUV</label>
+    <br>
+  <input id="checkbox" type="checkbox" name="vehicle" value="van">
+  <label for="checkbox">VAN</label>
+    <br>
+    <br>
+  
+  <label id="textarea">Additional Comments</label>
+  <br>
+  <textarea id="textarea" name="additional_comments" rows="5" cols="40">
+    
+    
+  </textarea>
+  <br>
+    
+    <button id="submit" type="submit" class="submit-button"><b>SUBMIT</b></button>
+  
+    </div>
+  </form>
+  </html>
